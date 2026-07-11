@@ -1,0 +1,15 @@
+services:
+  quizcraft:
+    build: .
+    ports:
+      - "5365:5365"
+    environment:
+      - PORT=5365
+      - ADMIN_PASSWORD=${ADMIN_PASSWORD:-change-me}
+      - DB_PATH=/app/data/quizcraft.db
+    volumes:
+      - quizcraft-data:/app/data
+    restart: unless-stopped
+
+volumes:
+  quizcraft-data:

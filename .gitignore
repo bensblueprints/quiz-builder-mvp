@@ -1,0 +1,11 @@
+node_modules/
+dist/
+release/
+vendor/
+data/
+.env
+*.db
+*.db-wal
+*.db-shm
+test/*.db*
+npm-debug.log*
