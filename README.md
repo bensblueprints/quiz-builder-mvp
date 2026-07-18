@@ -1,5 +1,9 @@
 # 🧩 Quizcraft
 
+## Demo
+
+VIDEO-PLACEHOLDER
+
 **Interactive quizzes with branching, scoring & lead capture. Pay once — never per response.**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
